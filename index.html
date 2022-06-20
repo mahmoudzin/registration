@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/mine.css">
+
+
+
+</head>
+
+<body class="bg-dark">
+  <div class="parent d-block" id="registraionParent">
+    <div class="d-flex justify-content-center align-items-center vh-100 text-white-50" id="registraion">
+      <div class="col-md-6 col-sm-8  bg-coustome p-5">
+        <form action="" id="signupInputs">
+          <div class="mb-3">
+            <label for="userName" class="form-label">Your Name</label>
+            <input type="text" class="form-control bg-input" id="userName" placeholder="Mohmoud">
+            <div id="alert1"></div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control bg-input" id="email" placeholder="name@example.com">
+            <div id="alert2"></div>
+          </div>
+          <div class="mb-3">
+            <label for="pass" class="form-label">Password</label>
+            <input type="password" class="form-control bg-input" id="pass">
+            <div id="alert3"></div>
+          </div>
+          
+          <button class="btn btn-outline-primary mt-3"> 
+            Sign up
+          </button>
+        </form>
+        <p class="lead mt-3">If you have accounet already <span class="text-primary make-pointer" id="signin">Sign in</span></p>
+      </div>
+    </div>
+    <div class="d-none justify-content-center align-items-center vh-100 text-white-50 " id="login">
+      <div class="col-md-6 col-sm-8  bg-coustome p-5">
+        <form action="" id="signinInputs">
+          <div class="mb-3">
+            <label for="emailLog" class="form-label">Email address</label>
+            <input type="email" class="form-control bg-input" id="emailLog" placeholder="name@example.com">
+            
+          </div>
+          <div class="mb-3">
+            <label for="passLog" class="form-label">Password</label>
+            <input type="password" class="form-control bg-input" id="passLog">
+            
+          </div>
+          <div id="alert4"></div>
+          <button class="btn btn-outline-primary mt-3"> 
+            Sign in
+          </button>
+        </form>
+        <p class="lead mt-3">If you don't have accounet already <span class="text-primary make-pointer" id="signup">Sign Up</span></p>
+      </div>
+    </div>
+  </div>
+
+  
+<div class="home vh-100 d-none justify-content-between flex-column text-white-50" id="home">
+  <nav class="navbar navbar-expand-xl navbar-dark bg-primary ">
+    <div class="container">
+    <a class="navbar-brand" href="#">Welcome</a>
+   <button id="logout-btn" class="btn btn-warning"> <i class="fa-solid fa-right-from-bracket fa-2x"></i></button>
+  </div>
+</nav>
+<div class="body p-5 col-md-6 col-sm-8 m-auto bg-secondary">
+  <h1 id="authedName"></h1>
+</div>
+<div class="footer py-3 text-center bg-primary">
+  By Mahmoud Shaaban
+</div>
+</div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
+
+<!-- 
+Dom  >> document object model 
+
+document built methods - properties >>>>> html , css -->
+
+<!-- 
+tag >>> object 
+select tag -->

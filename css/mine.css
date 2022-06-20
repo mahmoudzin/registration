@@ -1,0 +1,19 @@
+.transition{
+  transition: a11 .5s ease-in-out;
+}
+.make-pointer{
+  cursor:pointer;
+}
+
+.bg-coustome{
+   background-color: #18191A;
+}
+.bg-input{
+  background-color: #b0b3b8;
+}
+.form-control:focus {
+  color: rgb(214, 214, 214);
+  background-color: #6e7277;
+  border-color: rgb(189, 236, 255);
+  box-shadow: none;
+}
