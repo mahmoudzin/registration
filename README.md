@@ -43,7 +43,7 @@
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-- Refestration oprations [Signup, Login, Logout] im single page with pure javaScript
+- Registration oprations [Signup, Login, Logout] im single page with pure javaScript
 - authudation
 - Form validation
 
